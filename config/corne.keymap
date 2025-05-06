@@ -269,7 +269,6 @@
                 <&kp SPACE>,
                 <&macro_release>,
                 <&kp LEFT_WIN>;
-
         };
 
         prev_desk: prev_desk {
@@ -282,7 +281,6 @@
                 <&kp LEFT>,
                 <&macro_release>,
                 <&kp LEFT_WIN &kp LCTRL>;
-
         };
 
         next_desk: next_desk {
@@ -295,7 +293,6 @@
                 <&kp RIGHT>,
                 <&macro_release>,
                 <&kp LEFT_WIN &kp LCTRL>;
-
         };
 
         desk: desk {
@@ -306,7 +303,6 @@
                 <&kp LEFT_WIN &kp TAB>,
                 <&macro_release>,
                 <&kp LEFT_WIN &kp TAB>;
-
         };
 
         block: block {
@@ -317,7 +313,6 @@
                 <&kp LEFT_WIN &kp L>,
                 <&macro_release>,
                 <&kp LEFT_WIN &kp L>;
-
         };
     };
 };
@@ -378,7 +373,7 @@
         };
 
         dota_toggle {
-            bindings = <&tog 7>;
+            bindings = <&tog 1>;
             key-positions = <5 25>;
         };
 
@@ -388,12 +383,12 @@
         };
 
         shooters_toogle {
-            bindings = <&tog 9>;
+            bindings = <&tog 3>;
             key-positions = <0 5>;
         };
 
         carbon {
-            bindings = <&tog 8>;
+            bindings = <&tog 2>;
             key-positions = <12 17>;
         };
     };
@@ -427,10 +422,11 @@
 &kp RBKT   &kp Q           &kp W           &kp E        &kp R             &kp T    &kp Y  &kp U              &kp I        &kp O            &kp P                    &kp LEFT_BRACKET
 &kp GRAVE  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G    &kp H  &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_WIN SEMICOLON  &kp SQT
 &kp ESC    &kp Z           &kp X           &kp C        &kp V             &kp B    &kp N  &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp BSLH
-                                           &mo 6        &mo 1             &mo 2    &mo 5  &mo 4              &mo 3
+                                           &mo 9        &mo 4             &mo 5    &mo 8  &mo 7              &mo 6
             >;
         };
-dota {
+
+        dota {
             bindings = <
 &kp GRAVE  &kp Q  &kp W  &kp E      &kp R     &kp T        &kp Y   &kp U   &kp I      &kp O    &kp P     &kp BSPC
 &kp TAB    &kp A  &kp S  &kp D      &kp F     &kp G        &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
@@ -578,7 +574,5 @@ dota {
 
             display-name = "mouse";
         };
-
-        
     };
 };
